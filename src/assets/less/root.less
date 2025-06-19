@@ -162,7 +162,7 @@ color: var(--bodyTextColor);
     min-width: (174/16rem);
     margin: auto;
     color: #fff;
-    padding: 0 (48/16rem);
+    padding: 0 2.9rem;
     /* prevents padding and border from affecting height and width */
     box-sizing: border-box;
     background-color: #f15a24;
@@ -573,7 +573,7 @@ body {
     &.scroll {
         #cs-navigation {
             /* 53px, same height as the cs-top-container */
-            transform: translateY(-3.3125rem);
+            // transform: translateY(-3.3125rem);
         }
     }
 }
@@ -997,6 +997,11 @@ body.dark-mode {
         }
     }
 
+    .cs-dropdown-button {
+        background: none;
+        border: none;
+    }
+
     .cs-drop-icon {
         width: (15/16rem);
         height: auto;
@@ -1058,6 +1063,11 @@ body.dark-mode {
                 transform: translateY(0);
             }
         }
+    }
+
+    .cs-dropdown-button {
+        background: none;
+        border: none;
     }
 
     .cs-drop-icon {
@@ -1202,7 +1212,7 @@ body.dark-mode {
 body.scroll {
     #cs-navigation {
         /* 53px, the ssme height as the cs-top-container */
-        transform: translateY(-3.3125rem);
+        // transform: translateY(-3.3125rem);
     }
 }
 
@@ -1386,7 +1396,7 @@ body.scroll {
                            
     .cs-nav-button {
         line-height: (46/16rem);
-        margin-left: (24/16rem);
+        margin-left: (48/16rem);
     }
 }
 }
